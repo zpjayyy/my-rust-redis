@@ -15,6 +15,14 @@ path = "bin/server.rs"
 name = "client"
 path = "bin/client.rs"
 
+[[bin]]
+name = "echo-server-copy"
+path = "bin/echo-server-copy.rs"
+
+[[bin]]
+name = "echo-client-copy"
+path = "bin/echo-client-copy.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
