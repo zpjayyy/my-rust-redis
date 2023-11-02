@@ -12,3 +12,4 @@ path = "examples/hello-redis.rs"
 [dependencies]
 tokio = { version = "1.33.0", features = ["full"] }
 mini-redis = "0.4.1"
+bytes = "1.5.0"
