@@ -7,6 +7,14 @@ edition = "2021"
 name = "hello-redis"
 path = "examples/hello-redis.rs"
 
+[[bin]]
+name = "server"
+path = "bin/server.rs"
+
+[[bin]]
+name = "client"
+path = "bin/client.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
